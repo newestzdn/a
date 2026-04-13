@@ -1,5 +1,5 @@
 # Cleanup
-rm -rf device vendor hardware
+rm -rf device vendor hardware android packages
 
 # ROM
 repo init -u https://github.com/AxionAOSP/android.git -b lineage-23.2 --depth=1 --git-lfs
