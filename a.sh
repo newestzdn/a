@@ -9,13 +9,13 @@ cp -r vendor/lineage-priv/keys /tmp/axion_keys_backup
 # ROM
 repo init -u https://github.com/AxionAOSP/android.git -b lineage-23.2 --depth=1 --git-lfs
 /opt/crave/resync.sh
-source build/envsetup.sh
 
 # Restore keys
 mkdir -p vendor/lineage-priv/keys
 cp -r /tmp/axion_keys_backup/* vendor/lineage-priv/keys/
 [ -f "vendor/lineage-priv/keys/releasekey.pk8" ] && echo "[OK] Restore to vendor/ success." >> $LOG || echo "[FAIL] Restore failed." >> $LOG
 
+source build/envsetup.sh
 ---------------------------------------------------
 # Device 
 git clone -b axion https://github.com/zaidanprjkt/device_infinix_X6882 device/infinix/X6882
