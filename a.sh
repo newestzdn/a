@@ -19,7 +19,7 @@ source build/envsetup.sh
 ---------------------------------------------------
 # Device 
 git clone -b axion https://github.com/zaidanprjkt/device_infinix_X6882 device/infinix/X6882
-git clone --depth=1 https://github.com/zaidanprjkt/vendor_infinix_X6882-2 vendor/infinix/X6882
+git clone --depth=1 https://github.com/javas-prjkt/android_vendor_infinix_X6882 vendor/infinix/X6882
 git clone --depth=1 https://github.com/zaidannn7/device_infinix_X6882-kernel device/infinix/X6882-kernel
 ----------------------------------------------------
 # Mediatek Specific
