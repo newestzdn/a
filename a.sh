@@ -28,9 +28,9 @@ git clone --depth=1 https://github.com/mt6789-transsion/hardware_transsion hardw
 git clone --depth=1 https://github.com/MillenniumOSS/android_device_mediatek_sepolicy_vndr device/mediatek/sepolicy_vndr
 git clone --depth=1 https://github.com/MillenniumOSS/android_hardware_mediatek hardware/mediatek
 -----------------------------------------------------
-export BUILD_USERNAME=zaidan
+export BUILD_USERNAME=zaidannn7
 export BUILD_HOSTNAME=android
-export KBUILD_BUILD_NAME=zaidan
+export KBUILD_BUILD_NAME=zaidannn7
 export KBUILD_BUILD_HOST=android
 
 # Build
