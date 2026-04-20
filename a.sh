@@ -28,7 +28,11 @@ git clone --depth=1 https://github.com/mt6789-transsion/hardware_transsion hardw
 git clone --depth=1 https://github.com/MillenniumOSS/android_device_mediatek_sepolicy_vndr device/mediatek/sepolicy_vndr
 git clone --depth=1 https://github.com/MillenniumOSS/android_hardware_mediatek hardware/mediatek
 -----------------------------------------------------
-#git clone --depth=1 https://github.com/KimelaZX/android_hardware_lineage_compat hardware/lineage/compat
+export BUILD_USERNAME=zaidan
+export BUILD_HOSTNAME=android
+export KBUILD_BUILD_NAME=zaidan
+export KBUILD_BUILD_HOST=android
+
 # Build
 axion X6882 user va
 ax -br -j$(nproc)
