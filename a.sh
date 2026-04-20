@@ -34,7 +34,7 @@ export KBUILD_BUILD_NAME=zaidannn7
 export KBUILD_BUILD_HOST=android
 
 # Build
-axion X6882 user va
+axion X6882 user core
 ax -br -j$(nproc)
 
 
