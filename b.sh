@@ -1,5 +1,5 @@
 # Cleanup things
-rm -rf device/infinix rm -rf hardware/lineage/compat device/mediatek vendor/infinix vendor/mediatek hardware/mediatek android packages
+rm -rf device/infinix rm -rf hardware device/mediatek vendor/infinix frameworks build vendor/mediatek hardware/mediatek android packages bionic art tools prebuilt prebuilts
 
 # Backup Keys
 LOG="key_status.txt"
@@ -18,8 +18,8 @@ cp -r /tmp/axion_keys_backup/* vendor/lineage-priv/keys/
 source build/envsetup.sh
 ---------------------------------------------------
 # Device 
-git clone -b lineage https://github.com/shirukalan9/z device/infinix/X6882
-git clone --depth=1 https://github.com/javas-prjkt/android_vendor_infinix_X6882 vendor/infinix/X6882
+git clone -b lineage-23.0 https://github.com/shirukalan9/z device/infinix/X6882
+git clone --depth=1 https://gitlab.com/zaidannn7/vendor_infinix_X6882 vendor/infinix/X6882
 git clone --depth=1 https://github.com/mt6789-transsion/device_infinix_X6882-kernel device/infinix/X6882-kernel
 ----------------------------------------------------
 # Mediatek Specific
