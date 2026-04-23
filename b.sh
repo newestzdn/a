@@ -13,7 +13,7 @@ repo init --depth=1 --no-repo-verify --git-lfs -u https://github.com/ProjectInfi
 # Restore keys
 mkdir -p vendor/lineage-priv/keys
 cp -r /tmp/axion_keys_backup/* vendor/lineage-priv/keys/
-[ -f "vendor/lineage-priv/keys/releasekey.pk8" ] && echo "[OK] Restore to vendor/ success." >> $LOG || echo "[FAIL] Restore failed." >> $LOG
+[ -f "vendor/lineage-priv/keys/releasekey.pk8" ] && echo "[OK] Restore to vendor/ success." >> $LOG || echo "[FAIL] Restore failed." && exit 1 >> $LOG
 
 . build/envsetup.sh
 ---------------------------------------------------
