@@ -1,5 +1,5 @@
 # Cleanup things
-rm -rf device/infinix rm -rf hardware device/mediatek vendor/infinix frameworks build vendor/mediatek hardware/mediatek android packages bionic art tools prebuilt prebuilts
+rm -rf device/infinix hardware device/mediatek vendor/infinix vendor/mediatek hardware/mediatek android packages prebuilts
 
 # Backup Keys
 LOG="key_status.txt"
@@ -31,4 +31,4 @@ git clone --depth=1 https://github.com/MillenniumOSS/android_hardware_mediatek h
 # Build
 source build/envsetup.sh
 lunch infinity_X6882-user
-m bacon 
+mka bacon 
