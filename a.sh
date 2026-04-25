@@ -35,7 +35,7 @@ export KBUILD_BUILD_NAME=zaidannn7
 export KBUILD_BUILD_HOST=android
 
 wget -q https://raw.githubusercontent.com/zaidannn7/patches/refs/heads/main/a.py 
-python3 a.py
+python3 a.py || exit 1
 
 # Build
 axion X6882 user va
