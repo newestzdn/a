@@ -18,7 +18,7 @@ repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync 
 # Device 
 rm -rf device/infinix
 git clone -b ax  https://github.com/zaidannn7/device_infinix_X6882-jva device/infinix/X6882
-
+git clone -b main https://github.com/shirukalan9/zvt vendor/infinix/X6882
 # Build
 source build/envsetup.sh
 axion X6882 user pico
