@@ -8,7 +8,7 @@ repo init -u https://github.com/ProjectInfinity-X/manifest -b 16 -g default,-mip
 
 # Device 
 rm -rf device/infinix/X6882
-git clone -b ax  https://github.com/zaidannn7/device_infinix_X6882-jva device/infinix/X6882
+git clone -b if  https://github.com/zprjkt/device_infinix_X6882 device/infinix/X6882
 git clone -b main https://github.com/shirukalan9/zvt vendor/infinix/X6882
 
 # Build
